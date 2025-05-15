@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="icon" href="data:,">
+
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <!-- Sidebar -->
+        <div class="left">
+            <div class="close invert">
+                <img width=30 src="close.svg" alt="">
+            </div>
+            <div class="home rounded bg-grey m-1 p-1">
+                <div class="logo">
+                    <img width="40" class="invert" src="logo.svg" alt="logo">  Musify
+                </div>
+                <ul>
+                    <li><img class="invert" src="home.svg" alt="home"> Home</li>
+                    <li><img class="invert" src="search.svg" alt="search"> Search</li>
+                </ul>
+            </div>
+
+            <div class="library bg-grey rounded m-1 p-1">
+                <div class="heading">
+                    <img class="invert" src="playlist.svg" alt="playlist">
+                    <h2>
+                        Your Library
+                    </h2>
+
+                </div>
+                <div class="songList">
+                    <ul>
+                        <li>
+                            <img class="invert" src="music.svg" alt="">
+                            <div class="info">
+                                <div>Song Name</div>
+                                <div>Song Artist</div>
+                            </div>
+                            play now<img class="invert" src="play.svg" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="right bg-grey rounded p-1">
+            <div class="header flex space-between align-center">
+                <div class="nav">
+                    <div  class="hamburgercont flex">
+                        <img width=30 class="invert hamburger" src="hamburger.svg" alt="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
+                            <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="#ffffff"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
+                            <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="#ffffff"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    
+
+                    </div>
+                        
+                     
+                    
+                </div>
+                <div class="buttons">
+                    <button class="signupbtn">Sign Up</button>
+                    <button class="loginbtn">Login</button>
+                </div>
+            </div>
+
+            <!-- Playlist Section -->
+            <div class="musifyPlaylist">
+                <h1>Musify Playlists</h1>
+                <div class="card-container">
+                    <div class="card">
+                        <div class="play-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                                <path
+                                    d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                    fill="8000" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="abb.jpg" alt="Happy Hits Cover">
+                        <h2>Happy Hits</h2>
+                        <p>Hits to boost your mood and fill you with happiness!</p>
+                    </div>
+                    <div class="card">
+                        <div class="play-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                                <path
+                                    d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                    fill="8000" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="romantic.jpg" alt="Happy Hits Cover">
+                        <h2>Romantic Hits</h2>
+                        <p>lets fall in love again with the same intensity</p>
+                    </div>
+                    <div class="card">
+                        <div class="play-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                                <path
+                                    d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                    fill="8000" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="jj.jpg" alt="Happy Hits Cover">
+                        <h2>vintage hits</h2>
+                        <p>old is the ultimated gold</p>
+                    </div>
+                    
+                </div>
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="song-details">
+                        <div class="songinfo">No song playing</div>
+                        <div class="songtime">00:00 / 00:00</div>
+                    </div>
+                    <div class="songbuttons">
+                        <img width="40" id="previous" class="invert" src="previous.svg" alt="none">
+                        <img width="40" id="play" class="invert" src="play.svg" alt="none">
+                        <img width="40" id="next" class="invert" src="next.svg" alt="none">
+                    </div>
+                </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
